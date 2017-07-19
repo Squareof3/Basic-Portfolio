@@ -1,0 +1,53 @@
+body {
+	font-size: 12px;
+	font-family: Times;
+
+}
+
+ #container {
+ 	padding: 40px;
+ 	float: left;
+ 	display: block;
+ 	float: left;
+ }
+
+.contact {
+	display: block;
+	float: right;
+
+}
+
+ .ico {
+ 	width: 100px;
+ 	display: block;
+ 	height: 20px;
+ 	background: black;
+ 	color: white;
+ 	text-decoration: none;
+ 	padding-left: 20pxs;
+ 	display: inline;
+ }
+/***** NavBar *****/
+
+.group {
+	float: right;
+	font-size: small;
+	color: gray;
+}
+
+.group ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.group li {
+	display: inline;
+	margin: 0 3.5em 0 2.5em;
+}
+
+.group li a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+
