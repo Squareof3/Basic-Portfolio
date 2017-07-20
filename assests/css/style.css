@@ -2,6 +2,7 @@ body {
 	font-size: 12px;
 	font-family: Times;
 	background: #e1eaea;
+	margin: 0 0 0 0;
 
 }
 
@@ -13,42 +14,36 @@ img {
 	float: left;
 }
 
-h6 {
-	background: gray;
-}
-
 header {
 	font-size: 40px;
 }
 
 .navbar{
 	color: black;
-	padding-left: ;
-	padding-right: ;
 	background: white;
 	display: inline;
 	float: left;
 	width: 100%;
-	height: 53px;
+	height: 73px;
 
 }
 
 .index {
-	float: left;
+	float: right;
 	color: black;
-	padding: 0 10px 0 600px;
+	padding: 0 10px 0 -3px;
 	color: gray;
+	
 }
 
 .contact {
-	float: left;
-	
+	float: right;
 	padding-left: 10px;
 	
 }
 
 .portfolio {
-	float: left;
+	float: right;
 	padding: 0 10px 0 10px;
 }
 
@@ -64,12 +59,17 @@ header {
 
 .group {
 	float: left;
-	font-size: small;
+	font-size: medium;
+	text-align: center;
 	color: white;
 	background-color: #0099cc;
-	margin-left: 30px;
-	height: 070px;
-	width: 15%;
+	height: 73px;
+	width: 18%;
+}
+
+.group-text {
+	font-size: 16px;
+	padding: -4px;
 }
 
 .navlist {
@@ -120,17 +120,17 @@ header {
 }
 
 .foot {
-	height: 50px;
+	height: 70px;
 	background: gray;
 	border-top: 3px solid #0099cc;
+	width: 100%;
 }
 
 .clearfix::after {
-				content:””;
-				display: block;
-				clear: both;
-		}
-
+		content: "";
+		display: block;
+		clear: both;
+}
 .p1 {
 	font-family: 'Zilla Slab', serif;
 	font-weight: normal;
