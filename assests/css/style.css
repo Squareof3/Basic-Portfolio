@@ -1,7 +1,55 @@
 body {
 	font-size: 12px;
 	font-family: Times;
+	background: #e1eaea;
 
+}
+
+h1 {
+	font-size: big as hell;
+}
+
+img {
+	float: left;
+}
+
+h6 {
+	background: gray;
+}
+
+header {
+	font-size: 40px;
+}
+
+.navbar{
+	color: black;
+	padding-left: ;
+	padding-right: ;
+	background: white;
+	display: inline;
+	float: left;
+	width: 100%;
+	height: 53px;
+
+}
+
+.index {
+	float: left;
+	color: black;
+	padding: 0 10px 0 600px;
+	color: gray;
+}
+
+.contact {
+	float: left;
+	
+	padding-left: 10px;
+	
+}
+
+.portfolio {
+	float: left;
+	padding: 0 10px 0 10px;
 }
 
  #container {
@@ -11,43 +59,79 @@ body {
  	float: left;
  }
 
-.contact {
-	display: block;
-	float: right;
-
-}
-
- .ico {
- 	width: 100px;
- 	display: block;
- 	height: 20px;
- 	background: black;
- 	color: white;
- 	text-decoration: none;
- 	padding-left: 20pxs;
- 	display: inline;
- }
+ 
 /***** NavBar *****/
 
 .group {
-	float: right;
+	float: left;
 	font-size: small;
-	color: gray;
+	color: white;
+	background-color: #0099cc;
+	margin-left: 30px;
+	height: 070px;
+	width: 15%;
 }
 
-.group ul {
-	list-style-type: none;
+.navlist {
+	float: right;
+	color: gray;
+
+}
+
+.aboutme {
+	background: white;
+	height: 400px;
+	width: 43.4%;
+	margin: 35px 100px;
+	margin-left: 25px;
+	overflow: auto;
+	float: left;
+}
+
+.connect {
+	margin: 29.9px;
+	margin-left: 15px;
+	background: white;
+	float: left;
+	height: 160px;
+	width: 20%;
+	overflow: auto;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
 	text-align: center;
-}
-
-.group li {
-	display: inline;
-	margin: 0 3.5em 0 2.5em;
-}
-
-.group li a:hover {
-	color: gray;
 	text-decoration: none;
+	margin: 5px 2px;
 }
 
+.fa-github {
+	
+}
 
+.fa-linkedin {
+
+}
+
+.fa-stack-overflow {
+
+}
+
+.foot {
+	height: 50px;
+	background: gray;
+	border-top: 3px solid #0099cc;
+}
+
+.clearfix::after {
+				content:””;
+				display: block;
+				clear: both;
+		}
+
+.p1 {
+	font-family: 'Zilla Slab', serif;
+	font-weight: normal;
+}
