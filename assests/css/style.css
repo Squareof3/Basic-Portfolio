@@ -90,6 +90,9 @@ img {
 }
 
 .foot {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
 	height: 70px;
 	background: gray;
 	border-top: 3px solid #0099cc;
